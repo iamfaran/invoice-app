@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100vh;
+}
+.signature {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+.signature-text {
+  font-family: "Pacifico";
+  font-size: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+.invoice-head {
+  background-color: red;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+.divider {
+  height: 4px;
+}
+.footer {
+  background-color: red;
+}
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.heading-blue {
+  background-color: royalblue;
+}
+
+/* OFFERNER TABLE */
+
+.offener-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.offener-table th,
+.offener-table td {
+  /* text-align: left; */
+  padding: 8px;
+}
+.offener-table tr:nth-child(odd) {
+  background-color: royalblue;
+  color: #ffffff;
+}
+/* FOOTER */
+.footer-table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.footer-table th,
+.footer-table td {
+  padding: 8px;
+}
+.footer-table tr:nth-child(odd) {
+  background-color: rgb(43, 42, 42);
+  color: #ffffff;
+}
+
+/* ------------------SLip ---------------- */
+.slip-text {
+  position: relative;
+}
+.lines {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 110px;
+  /* left: 50px; */
+  width: 280px;
+  padding: 10px;
+  text-align: center;
+}
+
+.top-left {
+  position: absolute;
+  top: 85px;
+  left: 85px;
+}
+.right-middle {
+  position: absolute;
+  right: 100px;
+  top: 170px;
+}
+.left-middle {
+  position: absolute;
+  border: 3px solid gray;
+  top: 228px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 4px;
+  width: 270px;
+  height: 40px;
+  background-color: #fee8e4;
+  text-align: center;
+}
+.right-middle-amount {
+  position: absolute;
+  border: 3px solid gray;
+  top: 228px;
+  left: 290px;
+  font-weight: bold;
+  font-size: 28px;
+  letter-spacing: 4px;
+  width: 280px;
+  text-align: center;
+  height: 40px;
+  background-color: #fee8e4;
+}
+
+.top-right {
+  position: absolute;
+  top: 75px;
+  right: 30%;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 171px;
+  right: 15px;
+  width: 400px;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 85px;
+  left: 40%;
+  transform: translateX(-80%);
+}
+/* Media Queries--------- */
+@media only screen and (max-width: 1920px) {
+  .bottom-left {
+    display: none;
+  }
+  .bottom-left {
+    display: none;
+  }
+  .bottom-right {
+    display: none;
+  }
+  .centered {
+    display: none;
+  }
+  .top-left {
+    display: none;
+  }
+  .top-right {
+    display: none;
+  }
+  .right-middle {
+    display: none;
+  }
+  .left-middle {
+    display: none;
+  }
+  .right-middle-amount {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #main {
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  #datePicker {
+    margin-top: 15px;
+  }
+}

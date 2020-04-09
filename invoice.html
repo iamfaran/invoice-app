@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.css" media="all" />
+    <link rel="stylesheet" href="./css/style.css" media="all" />
+    <style type="text/css" media="print">
+      * {
+        -webkit-print-color-adjust: exact !important; /*Chrome, Safari */
+        color-adjust: exact !important; /*Firefox*/
+      }
+    </style>
+  </head>
+  <body id="target">
+    <section>
+      <div class="container">
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="./images/Fahrschule_Star_13_CV.png"
+                  alt=""
+                  class="logo"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr class="divider" />
+    </section>
+    <!-- ----------------------------------CONTENT SECTION---------------------------- -->
+    <section class="content">
+      <div class="container">
+        <div>
+          <div class="text-center mb-3">
+            <button class="btn btn-outline-secondary" onclick="window.print()">
+              Save as Pdf
+            </button>
+          </div>
+        </div>
+        <div class="invoice-head text-center p-2">
+          Rechnung
+        </div>
+
+        <table class="table mt-4">
+          <tbody>
+            <tr class="">
+              <td class="font-weight-bold">
+                Fahrschule Star <br />
+                Landstrasse 20 <br />
+                5430 Wettingen <br />
+                <span class="mydate mt-3 d-block">Date:</span>
+              </td>
+              <td align="right">
+                <span class="first-name font-weight-bold">FirstName,</span>
+                <span class="last-name"> LastName</span>
+                <br />
+                <span class="address">Address</span>
+                <br />
+                <span class="post-code">PostCode</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="row">
+          <div class="col-lg-12">
+            Hallo
+            <span
+              class="first-name font-weight-bold d-inline-block mt-5"
+            ></span>
+          </div>
+        </div>
+        <div>
+          Anbei die Rechnung für den offenen Betrag deine gefahrenen Fahrstunden
+        </div>
+
+        <!-- -------------------TABLE ---------------------------------- -->
+        <div>
+          <table class="offener-table mt-5 mb-5">
+            <tr>
+              <th>Betrag</th>
+              <th></th>
+              <th></th>
+            </tr>
+            <tr class="table-bordered">
+              <td>Total</td>
+              <td></td>
+              <td align="center">
+                <span class="amount font-weight-bold"></span>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <!-- NEW TABLE--------------------------------------------------- -->
+        <span class="d-block">
+          Bitte überweise den Betrag auf folgendes Konto:</span
+        >
+
+        <span class="d-block">Fahrschule Star GmbH</span>
+        Mitteilung:
+        <span class="first-name font-weight-bold d-inline-block mt-2"
+          >FirstName,</span
+        >
+        <span class="last-name d-inline-block"> LastName</span>
+        <p>bei Fragen zögere nicht deinen Fahrlehrer zu kontaktieren.</p>
+        <p class="mt-5">Mit freundlichen Grüssen</p>
+        <img src="./images/signature.png" class="signature" alt="" />
+        <p>
+          Mige Justiniano <br />
+          Fahrschule Star
+        </p>
+
+        <hr class="divider" />
+
+        <div>
+          <table class="footer-table mt-5">
+            <tr>
+              <th align="left" class="p-3">Fahrschule Star</th>
+              <th align="center" class="p-3">Landstrasse 20</th>
+              <th align="right" class="p-3">5430 Wettingen</th>
+            </tr>
+          </table>
+        </div>
+        <div></div>
+      </div>
+    </section>
+    <section id="slip" style="page-break-before: always;">
+      <div class="slip-text">
+        <img src="./images/slip.png" alt="Snow" style="width: 100%;" />
+
+        <div
+          class="bottom-left"
+          style="background-color: #fee8e4; font-weight: bold;"
+        >
+          <span class="first-name">FirstName,</span>
+
+          <span class="last-name"> LastName</span>
+          <hr class="lines" style="background-color: red;" />
+          <span class="address d-block">Address</span>
+          <hr class="lines" style="background-color: red;" />
+          <span class="post-code d-block">PostCode</span>
+          <hr class="lines" style="background-color: red;" />
+        </div>
+        <div class="top-left">
+          Fahrschule Star <br />
+          Landstrasse 20 <br />
+          5430 Wettingen <br />
+        </div>
+        <div class="top-right">
+          <span class="first-name">FirstName,</span>
+          <span class="last-name"> LastName</span>
+        </div>
+        <div class="right-middle">CH19 0900 0000 8982 9313 6</div>
+        <div class="left-middle"><span class="amount-boxes">Amount</span></div>
+        <div class="right-middle-amount">
+          <span class="amount-boxes">Amount</span>
+        </div>
+        <div
+          class="bottom-right"
+          style="
+            background-color: #fee8e4;
+            font-weight: bold;
+            font-weight: bold;
+          "
+        >
+          <span class="first-name">FirstName,</span>
+          <span class="last-name"> LastName</span>
+          <hr class="lines" style="background-color: red;" />
+          <span class="address d-block">Address</span>
+          <hr class="lines" style="background-color: red;" />
+          <span class="post-code d-block">PostCode</span>
+          <hr class="lines" style="background-color: red;" />
+        </div>
+        <div class="centered">
+          Fahrschule Star <br />
+          Landstrasse 20 <br />
+          5430 Wettingen <br />
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/7cb9dd92a1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./scripts/get-invoice.js"></script>
+    <script src="./scripts/slip.js"></script>
+  </body>
+</html>
